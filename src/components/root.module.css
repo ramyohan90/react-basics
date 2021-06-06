@@ -1,0 +1,17 @@
+
+.rootContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuContainer {
+    height: 60px;
+    width: 100%;
+    background-color: #BDBCBC;
+    font-weight: bold;
+}
+
+.contentContainer {
+    height: 100%;
+    width: 100%;
+}

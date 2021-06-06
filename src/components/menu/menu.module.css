@@ -1,0 +1,28 @@
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleContainer {
+    margin: 14px;
+}
+
+.login {
+    margin: 14px;
+    margin-left: auto;
+}
+
+.signup {
+    margin: 14px;
+}
+
+.authItems {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
