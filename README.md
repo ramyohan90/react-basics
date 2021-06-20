@@ -4,8 +4,9 @@ To use below react features and common fetaures as part of this project:
 1. useContext
 2. useState
 3. useRef
-4. routers - must be able to navigate programatically as well as through Link
-5. create a simple menu with login button and project name (Basic UI, not high deisgn required)
+4. forwardRef
+5. routers - must be able to navigate programatically as well as through Link
+6. create a simple menu with login button and project name (Basic UI, not high deisgn required)
 
 Project decsription:
 User must be able to navigate to login page, and enter credentials. Credentials can be hardcoded as admin/admin in controller file. No API call required in project
