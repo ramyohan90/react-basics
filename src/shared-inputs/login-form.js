@@ -2,6 +2,7 @@ import { Fragment, useContext, useEffect, useRef, useState } from "react"
 import { withRouter } from "react-router";
 import loginApi from '../services/login.api';
 import { AuthState } from "../states/AuthState";
+import Input from '../shared-inputs/input';
 
 const LoginForm = (props) => {
 
@@ -76,11 +77,13 @@ const LoginForm = (props) => {
                                 </tr>}
                                 <tr>
                                     <td><label htmlFor="Usrename">Username: </label></td>
-                                    <td><input type="text" ref={userName} /></td>
+                                    {/* <td><input type="text" ref={userName} /></td> */}
+                                    <td><Input type="text" ref={userName}/></td>
                                 </tr>
                                 <tr>
                                     <td><label htmlFor="Usrename">Password: </label></td>
-                                    <td> <input type="password" ref={password} /></td>
+                                    {/* <td> <input type="password" ref={password} /></td> */}
+                                    <td><Input type="password" ref={password}/></td>
                                 </tr>
                                 <tr>
                                     <td><button type="submit">Login</button></td>
